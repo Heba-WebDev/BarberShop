@@ -10,9 +10,13 @@
     <PackageReference Include="BuildWebCompiler" Version="1.12.405" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Images\" />
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Content Remove="wwwroot\Images\photo-1493256338651-d82f7acb2b38.png" />
+    <Content Remove="wwwroot\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Images\photo-1493256338651-d82f7acb2b38.png" />
   </ItemGroup>
 </Project>
