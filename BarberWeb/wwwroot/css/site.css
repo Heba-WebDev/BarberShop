@@ -298,3 +298,16 @@ body {
 .overlay-grey {
     background-color: rgba(#596164, 0.4);
 }
+
+.px-wide {
+    max-width: 45rem;
+    margin:  0 auto ;
+}
+
+.hover-effect {
+    opacity: 0.5;
+}
+
+.hover-effect:hover {
+    opacity: 1;
+}
